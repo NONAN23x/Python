@@ -27,8 +27,8 @@ print ":!:      :!:     :!:    !:! :!:    !:! :!:     !:!"
 print ":::      ::::::: :::::::::: :::::::::: ;::    :::"
 print ":::      :::::::  ::::::::   ::::::::  :::::::::"+N
 print "["+B+""+R+"#"+N+"] "+B+""+R+"AndroSec1337 Cyber Team"+N+"   Fl00d 2.0 - "+B+""+R+"DedSecTL"+N
-print "#T4ke 7hem d0wn vroh - All Hail Hatsune Miku - Fl00d th3m"
-print "#H4ck 4ll 7he 7h1ng - F1ght f0r Ju5t1c3 - K1ll th3m"
+print "Teach them whos the boss - All Hail Hatsune Miku - Fl00d th3m"
+print "#H4ck 4ll 7he 7h1ng - F1ght f0r Anime - K1ll th3m"
 ip = raw_input('[$] T@rget 1P: ')
 port = input('[$] P0rt: ')
 os.system("clear")
