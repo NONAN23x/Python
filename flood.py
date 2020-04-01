@@ -25,7 +25,7 @@ print'HHH             HHH      AAA           AAA             TTT             SSS
 print'HHH             HHH      AAA           AAA             TTT                       SSS      UUU               UUU      NNN      N       NNN      EEE              '
 print'HHH             HHH      AAA           AAA             TTT                       SSS      UUU               UUU      NNN      NNNNN   NNN      EEE              '
 print'HHH             HHH      AAA           AAA             TTT             SSSSSSSSSSSSS      UUUUUUUUUUUUUUUUUUUUU      NNN          NNNNNNN      EEEEEEEEEEEEEEEEE'
-print'\n')
+print'\n'
 print"MMMMMMMMMMMMMMMMMMMMMMMM      IIIIIIIIIIIIIII      KKK      KKK      UUU               UUU"                         
 print'MMM       MMM        MMM            III            KKK     KKK       UUU               UUU'  
 print'MMM       MMM        MMM            III            KKK    KKK        UUU               UUU'        
