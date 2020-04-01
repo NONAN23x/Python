@@ -17,24 +17,23 @@ bytes = random._urandom(1490)
 os.system("clear")
 
 print"\n\n\n"
-    print'HHH             HHH      AAAAAAAAAAAAAAAAA      TTTTTTTTTTTTTTTTT      SSSSSSSSSSSSS      UUU               UUU      NNN              NNN      EEEEEEEEEEEEEEEEE'
-    print'HHH             HHH      AAA           AAA             TTT             SSS                UUU               UUU      NNNNNNNNN        NNN      EEE              '
-    print'HHH             HHH      AAA           AAA             TTT             SSS                UUU               UUU      NNN   NNN        NNN      EEE              '
-    print'HHHHHHHHHHHHHHHHHHH      AAAAAAAAAAAAAAAAA             TTT             SSS                UUU               UUU      NNN     NN       NNN      EEE              '
-    print'HHH             HHH      AAA           AAA             TTT             SSSSSSSSSSSSS      UUU               UUU      NNN     NN       NNN      EEEEEEEEEEEEEEEEE'
-    print'HHH             HHH      AAA           AAA             TTT                       SSS      UUU               UUU      NNN      N       NNN      EEE              '
-    print'HHH             HHH      AAA           AAA             TTT                       SSS      UUU               UUU      NNN      NNNNN   NNN      EEE              '
-    print'HHH             HHH      AAA           AAA             TTT             SSSSSSSSSSSSS      UUUUUUUUUUUUUUUUUUUUU      NNN          NNNNNNN      EEEEEEEEEEEEEEEEE'
-    print'\n')
-    print"MMMMMMMMMMMMMMMMMMMMMMMM      IIIIIIIIIIIIIII      KKK      KKK      UUU               UUU"                         
-    print'MMM       MMM        MMM            III            KKK     KKK       UUU               UUU'  
-    print'MMM       MMM        MMM            III            KKK    KKK        UUU               UUU'        
-    print'MMM       MMM        MMM            III            KKK   KKK         UUU               UUU'                 
-    print'MMM       MMM        MMM            III            KKKKKKK           UUU               UUU'                  
-    print'MMM       MMM        MMM            III            KKK   KKK         UUU               UUU'                          
-    print'MMM       MMM        MMM            III            KKK     KKK       UUU               UUU'      
-    print'MMM       MMM        MMM      IIIIIIIIIIIIIII      KKK      KKKK     UUUUUUUUUUUUUUUUUUUUU'                         
-
+print'HHH             HHH      AAAAAAAAAAAAAAAAA      TTTTTTTTTTTTTTTTT      SSSSSSSSSSSSS      UUU               UUU      NNN              NNN      EEEEEEEEEEEEEEEEE'
+print'HHH             HHH      AAA           AAA             TTT             SSS                UUU               UUU      NNNNNNNNN        NNN      EEE              '
+print'HHH             HHH      AAA           AAA             TTT             SSS                UUU               UUU      NNN   NNN        NNN      EEE              '
+print'HHHHHHHHHHHHHHHHHHH      AAAAAAAAAAAAAAAAA             TTT             SSS                UUU               UUU      NNN     NN       NNN      EEE              '
+print'HHH             HHH      AAA           AAA             TTT             SSSSSSSSSSSSS      UUU               UUU      NNN     NN       NNN      EEEEEEEEEEEEEEEEE'
+print'HHH             HHH      AAA           AAA             TTT                       SSS      UUU               UUU      NNN      N       NNN      EEE              '
+print'HHH             HHH      AAA           AAA             TTT                       SSS      UUU               UUU      NNN      NNNNN   NNN      EEE              '
+print'HHH             HHH      AAA           AAA             TTT             SSSSSSSSSSSSS      UUUUUUUUUUUUUUUUUUUUU      NNN          NNNNNNN      EEEEEEEEEEEEEEEEE'
+print'\n')
+print"MMMMMMMMMMMMMMMMMMMMMMMM      IIIIIIIIIIIIIII      KKK      KKK      UUU               UUU"                         
+print'MMM       MMM        MMM            III            KKK     KKK       UUU               UUU'  
+print'MMM       MMM        MMM            III            KKK    KKK        UUU               UUU'        
+print'MMM       MMM        MMM            III            KKK   KKK         UUU               UUU'                 
+print'MMM       MMM        MMM            III            KKKKKKK           UUU               UUU'                  
+print'MMM       MMM        MMM            III            KKK   KKK         UUU               UUU'                          
+print'MMM       MMM        MMM            III            KKK     KKK       UUU               UUU'      
+print'MMM       MMM        MMM      IIIIIIIIIIIIIII      KKK      KKKK     UUUUUUUUUUUUUUUUUUUUU'                         
 print "\n\n\n\n\nTeach them whos the boss - All Hail Hatsune Miku - Fl00d th3m"
 print "#H4ck 4ll 7he 7h1ng - F1ght f0r Anime - K1ll th3m"
 ip = raw_input('Enter T@rget 1P: ')
