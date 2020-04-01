@@ -16,7 +16,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 os.system("clear")
 
-print"\n\n\n")
+print"\n\n\n"
     print'HHH             HHH      AAAAAAAAAAAAAAAAA      TTTTTTTTTTTTTTTTT      SSSSSSSSSSSSS      UUU               UUU      NNN              NNN      EEEEEEEEEEEEEEEEE'
     print'HHH             HHH      AAA           AAA             TTT             SSS                UUU               UUU      NNNNNNNNN        NNN      EEE              '
     print'HHH             HHH      AAA           AAA             TTT             SSS                UUU               UUU      NNN   NNN        NNN      EEE              '
