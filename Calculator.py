@@ -121,7 +121,7 @@ def maths():
         print("The Logarithmic form is: %.2f" %z )
 
     else:
-        print("Thats the wrong choice you Dumbhead!\n You have to Choose between Hypotenuse, Circumference, Square Root, Kinetic energy,"
+        print("Thats the wrong choice!\n You have to Choose between Hypotenuse, Circumference, Square Root, Kinetic energy,"
                            'Cube Root, Addition, Multiplication, Molecular weight,\n    Heat engine(Efficiency),'
                            " Sin, Cos, Tan, Log, notdefined-, Division")
 
@@ -138,7 +138,7 @@ def loop_function():
             print("Exiting...")
             break
         elif user_input == "No":
-            print('\n\nOk then Fuck Yourself')
+            print('Exiting ayways')
             exit()
         else:
             break
