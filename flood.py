@@ -34,8 +34,8 @@ print'MMM       MMM        MMM            III            KKKKKKK           UUU  
 print'MMM       MMM        MMM            III            KKK   KKK         UUU               UUU'                          
 print'MMM       MMM        MMM            III            KKK     KKK       UUU               UUU'      
 print'MMM       MMM        MMM      IIIIIIIIIIIIIII      KKK      KKKK     UUUUUUUUUUUUUUUUUUUUU'                         
-print "\n\n\n\n\nTeach them whos the boss - All Hail Hatsune Miku - Fl00d th3m"
-print "#H4ck 4ll 7he 7h1ng - F1ght f0r Anime - K1ll th3m"
+print "\n\n\n\n\nTeach them whos the boss - $ - Fl00d th3m"
+print "#H4ck 4ll 7he 7h1ng - F1ght - K1ll th3m"
 ip = raw_input('Enter T@rget 1P: ')
 port = input('Choose a  P0rt: ')
 print "Fl00d attack started on {0}.{1} | {2}-{3}-{4}".format(hour, minute, day, month, year)
