@@ -29,7 +29,7 @@ def looping():
     print('Wanna play again?\n    (y) or (n)')
     des = input()
     if des == "y":
-        looping()
+        game()
     elif des == "n":
         quit()
     else:
