@@ -25,17 +25,22 @@ def game():
         print('Nope the number i am thinking ois' + str(secnum))
 
 def looping():
-    game()
-    print('Wanna play again?\n    (y) or (n)')
-    des = input()
-    if des == "y":
+    i = 1
+    while i < 100:
         game()
-    elif des == "n":
-        quit()
-    else:
-        print('Quitting')
-        time.sleep(2)
-        quit()
+        secnum = 0
+        des = input("Do you want to continue? (y) or (n) ")
+        if des == "y":
+            i += 1
+        elif des == "n":
+            break
+            quit()
+        else:
+            print(" Exiting... ")
+            
+            
+        
+
 
 
 looping()
