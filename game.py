@@ -1,4 +1,5 @@
 import random, time
+secnum = random.randint(1,20)
 
 print('Starting game\n')
 time.sleep(2)
