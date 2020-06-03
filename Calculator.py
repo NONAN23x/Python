@@ -1,4 +1,4 @@
-from math import hypot, sin, cos, tan, log
+from math import hypot, sin, cos, tan, log, sqrt
 print('\nChoose between the following: ')
 
 def maths():
