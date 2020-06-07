@@ -1,5 +1,5 @@
 import time
-import datetime as d
+
 from twilio.rest import Client
 import random
 half_sid = "ACc6d5a5f2b1a4938d"
@@ -20,11 +20,11 @@ def frequent_texter():
                        "Wash your hands",
                        "Consider looking away for a while"
                        ]
-        for i in range(1,8):
+        for i in range(1,7):
             message = client.messages.create(
                 body=random.choice(random_msgs),
                 from_='whatsapp:+14155238886',
                 to='whatsapp:+919502760173'
             )
-            time.sleep(60*20)
+            time.sleep(60*18)
 frequent_texter()
