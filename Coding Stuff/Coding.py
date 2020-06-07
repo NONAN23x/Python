@@ -18,6 +18,7 @@ def frequent_texter():
                        "Have you completed today's streak?",
                        "Beware of MK MK germs qwq",
                        "Wash your hands",
+                       "Consider looking away for a while"
                        ]
         for i in range(1,8):
             message = client.messages.create(
@@ -25,5 +26,5 @@ def frequent_texter():
                 from_='whatsapp:+14155238886',
                 to='whatsapp:+919502760173'
             )
-            time.sleep(60*30)
+            time.sleep(60*20)
 frequent_texter()
