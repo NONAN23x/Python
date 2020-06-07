@@ -1,18 +1,29 @@
 import time
-value = 0
-condition = True
-time.sleep(1)
-print("Looper by Nonan23x;)")
-user_choice = str(input("Enter the word : "))
-while True:
-    print(" " * value, end="")
-    print(user_choice)
-    time.sleep(0.01)
-    if condition:
-        value = value + 1
-        if value == 7:
-            condition = False
-    else:
-        value = value - 1
-        if value == 0:
-            condition = True
+from twilio.rest import Client
+import random
+half_sid = "ACc6d5a5f2b1a4938d"
+half_token = "b85247c7acdd2b67"
+other_sid = open('othersid', 'r')
+other_token = open('othertoken', 'r')
+
+SID = half_sid + other_sid.read()
+TKN = half_token + other_token.read()
+client = Client(SID, TKN)
+
+def frequent_texter():
+        random_msgs = ["Consider drinking water :)",
+                       "Do something productive dammit!",
+                       "Duolingo Time!!!",
+                       "Have you completed today's streak?",
+                       "Beware of MK MK germs qwq",
+                       "Wash your hands",
+                       "Consider looking away for a while"
+                       ]
+        while True:
+            message = client.messages.create(
+                body=random.choice(random_msgs),
+                from_='whatsapp:+14155238886',
+                to='whatsapp:+919502760173'
+            )
+            time.sleep(1200)
+frequent_texter()
