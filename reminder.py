@@ -17,7 +17,8 @@ def frequent_texter():
                        "Have you completed today's streak?",
                        "Beware of MK MK germs qwq",
                        "Wash your hands",
-                       "Consider looking away for a while"
+                       "Consider looking away for a while",
+                       "Rub your eyes"
                        ]
         while True:
             message = client.messages.create(
