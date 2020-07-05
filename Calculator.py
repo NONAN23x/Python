@@ -1,10 +1,11 @@
 from math import hypot, sin, cos, tan, log, sqrt
+import time
 print('\nChoose between the following: ')
 
 def maths():
     user_input = (input('\nWhich Calculation do you want to make?:\n    Hypotenuse, Circumference, Square Root, Kinetic energy,'
                            'Cube Root, Addition, Multiplication, Molecular weight,\n    Heat engine(Efficiency),'
-                           ' Sin, Cos, Tan, Log, notdefined-, Division.\n---->: '))
+                           ' Sin, Cos, Tan, Log, notdefined-, exponent, Division.\n---->: '))
 
     if user_input == "Hypotenuse" or user_input == "hypo":
         print('\nInput the lengths of the shorter triangle sides:')
@@ -119,6 +120,19 @@ def maths():
         y = float(input('    Base: '))
         z = log(x,7)
         print("The Logarithmic form is: %.2f" %z )
+      
+    elif user_input == "exponent":
+        iterations = int(input("How many iterations? = "))  # asks the user how long does he wants the list to be
+        times = range(iterations)
+        create_alist = []  # an empty list where each answer is added
+        for i in times:  # a for loop for iterations
+            number = float(input("Enter the number :  "))
+            power = float(input("Enter the power : "))
+            answers = number ** power
+            time.sleep(0.25)  # just for show
+            create_alist.append(answers)
+        for i in create_alist:
+            print(i)  # finally, the answers are printed line by line
 
     else:
         print("Thats the wrong choice!\n You have to Choose between Hypotenuse, Circumference, Square Root, Kinetic energy,"
