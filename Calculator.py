@@ -3,7 +3,7 @@ import time
 print('\nChoose between the following: ')
 
 def maths():
-    user_input = (input('\nWhich Calculation do you want to make?:\n    Hypotenuse, Circumference, Square Root, Kinetic energy,'
+    user_input = (input('\n\n\n\nWhich Calculation do you want to make?:\n    Hypotenuse, Circumference, Square Root, Kinetic energy,'
                            'Cube Root, Addition, Multiplication, Molecular weight,\n    Heat engine(Efficiency),'
                            ' Sin, Cos, Tan, Log, notdefined-, exponent, Division.\n---->: '))
 
@@ -130,12 +130,14 @@ def maths():
             power = float(input("Enter the power : "))
             answers = number ** power
             time.sleep(0.25)  # just for show
+            print(answers)
             create_alist.append(answers)
         for i in create_alist:
             print(i)  # finally, the answers are printed line by line
 
     else:
-        print("Thats the wrong choice!\n You have to Choose between Hypotenuse, Circumference, Square Root, Kinetic energy,"
+        time.sleep(0.2)
+        print("\n\n\n\nUnrecognized Input!\n\nChoose between Hypotenuse, Circumference, Square Root, Kinetic energy,"
                            'Cube Root, Addition, Multiplication, Molecular weight,\n    Heat engine(Efficiency),'
                            " Sin, Cos, Tan, Log, notdefined-, Division")
 
