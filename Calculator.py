@@ -1,4 +1,4 @@
-from math import hypot, sin, cos, tan, log, sqrt
+from math import hypot, sin, cos, tan, log, sqrt                     # My first ever program, created in python!
 import time
 import os
 os.system('clear')
@@ -157,4 +157,4 @@ def loop_function():
             break
 
 loop_function()
-
+###
