@@ -15,10 +15,14 @@ os.system('clear')
 print('Choose between the following: ')
 
 def maths():
-    user_input = (input(
-        f'{light_cyan}Which Calculation do you want to make?:\n    Hypotenuse, Circumference, Square Root, Kinetic energy,'
-        'Cube Root, Addition, Multiplication, Molecular weight,\n    Heat engine(Efficiency),'
-        f' Sin, Cos, Tan, Log, notdefined-, exponent, Division.{finish}'+ f'{blue}\n----> {finish}'))
+    try:
+        user_input = (input(
+            f'{light_cyan}Which Calculation do you want to make?:\n    Hypotenuse, Circumference, Square Root, Kinetic energy,'
+            'Cube Root, Addition, Multiplication, Molecular weight,\n    Heat engine(Efficiency),'
+            f' Sin, Cos, Tan, Log, notdefined-, exponent, Division.{finish}' + f'{blue}\n----> {finish}'))
+    except:
+        os.system('clear')
+        exit()
 
     if user_input == "Hypotenuse" or user_input == "hypo":
         print('\nInput the lengths of the shorter triangle sides:')
