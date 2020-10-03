@@ -1,15 +1,24 @@
 from math import hypot, sin, cos, tan, log, sqrt                     # My first ever program, created in python!
 import time
 import os
+class colors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 os.system('clear')
 print('Choose between the following: ')
 
-
 def maths():
-    user_input = (input(
+    user_input = (input(colors.OKGREEN +
         'Which Calculation do you want to make?:\n    Hypotenuse, Circumference, Square Root, Kinetic energy,'
         'Cube Root, Addition, Multiplication, Molecular weight,\n    Heat engine(Efficiency),'
-        ' Sin, Cos, Tan, Log, notdefined-, exponent, Division.\n---->: '))
+        ' Sin, Cos, Tan, Log, notdefined-, exponent, Division.\n---->: ' + colors.OKGREEN))
 
     if user_input == "Hypotenuse" or user_input == "hypo":
         print('\nInput the lengths of the shorter triangle sides:')
