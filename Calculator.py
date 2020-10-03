@@ -1,24 +1,24 @@
-from math import hypot, sin, cos, tan, log, sqrt                     # My first ever program, created in python!
+ from math import hypot, sin, cos, tan, log, sqrt                 # My first ever program, created in python!
 import time
 import os
-class colors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-
+import colorama
+cyan = colorama.Fore.CYAN
+green = colorama.Fore.GREEN
+black = colorama.Fore.BLACK
+blue = colorama.Fore.BLUE
+red = colorama.Fore.RED
+yellow = colorama.Fore.YELLOW
+light_green = colorama.Fore.LIGHTGREEN_EX
+light_cyan = colorama.Fore.LIGHTCYAN_EX
+finish = colorama.Style.RESET_ALL
 os.system('clear')
 print('Choose between the following: ')
 
 def maths():
-    user_input = (input(colors.OKGREEN +
-        'Which Calculation do you want to make?:\n    Hypotenuse, Circumference, Square Root, Kinetic energy,'
+    user_input = (input(
+        f'{light_cyan}Which Calculation do you want to make?:\n    Hypotenuse, Circumference, Square Root, Kinetic energy,'
         'Cube Root, Addition, Multiplication, Molecular weight,\n    Heat engine(Efficiency),'
-        ' Sin, Cos, Tan, Log, notdefined-, exponent, Division.' + colors.OKGREEN + '\n---->'))
+        f' Sin, Cos, Tan, Log, notdefined-, exponent, Division.{finish}'+ f'{blue}\n----> {finish}'))
 
     if user_input == "Hypotenuse" or user_input == "hypo":
         print('\nInput the lengths of the shorter triangle sides:')
@@ -148,21 +148,24 @@ def maths():
         for i in create_alist:
             print(f"[{i}]")  # finally, the answers are printed line by line
 
+    elif user_input == "exit":
+        exit()
+
     else:
         time.sleep(0.2)
         os.system("clear")
-        print("Unrecognized Input!")
+        print(f"{red}Unrecognized Input!{finish}")
 
 
 def loop_function():
     while True:
         maths()
-        user_input = str(input('Do you want to continue? (Y/N) '))
+        user_input = str(input(f'{blue}Do you want to continue? (Y/N){finish}'))
         os.system("clear")
         if user_input == "Y" or user_input == "y":
             continue
         elif user_input == "N" or user_input == "n":
-            print("Breaking...\nHave a nice day!")
+            print(f"{red}Breaking...\nHave a nice day!{finish}")
             break
 
 loop_function()
