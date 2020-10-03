@@ -1,4 +1,4 @@
- from math import hypot, sin, cos, tan, log, sqrt                 # My first ever program, created in python!
+from math import hypot, sin, cos, tan, log, sqrt                 # My first ever program, created in python!
 import time
 import os
 import colorama
