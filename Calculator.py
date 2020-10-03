@@ -18,7 +18,7 @@ def maths():
     user_input = (input(colors.OKGREEN +
         'Which Calculation do you want to make?:\n    Hypotenuse, Circumference, Square Root, Kinetic energy,'
         'Cube Root, Addition, Multiplication, Molecular weight,\n    Heat engine(Efficiency),'
-        ' Sin, Cos, Tan, Log, notdefined-, exponent, Division.\n---->: ' + colors.OKGREEN))
+        ' Sin, Cos, Tan, Log, notdefined-, exponent, Division.' + colors.OKGREEN + '---->'))
 
     if user_input == "Hypotenuse" or user_input == "hypo":
         print('\nInput the lengths of the shorter triangle sides:')
