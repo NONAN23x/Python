@@ -1,9 +1,10 @@
 import random, time
-secnum = random.randint(1,20)
-print('Starting game\n')
-time.sleep(0.5)
-print("I've chosen a number bwtween 1 and 20...\n")
+
 def game():
+    secnum = random.randint(1,20)
+    print('Starting game\n')
+    time.sleep(0.5)
+    print("I've chosen a number bwtween 1 and 20...\n")
     for i in range(1, 10):
         print('\nCan you huess that number?\n')
         print('---------->')
@@ -22,4 +23,5 @@ def game():
     else:
         print('Nope the number I was thinking about was' + str(secnum))
         
-  
+  return None
+game()
