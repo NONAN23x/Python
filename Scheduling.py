@@ -1,4 +1,4 @@
-
+# this python file is supposed to be a package for the "TelegramBOT.py" file, so you have to download these both and change the contents here if necessary :)
 dict = {
 
     "5:30 AM": "Wake up for Fajr",
