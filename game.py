@@ -6,8 +6,8 @@ def game():
     time.sleep(0.5)
     print("I've chosen a number bwtween 1 and 20...\n")
     for i in range(1, 10):
-        print('\nCan you huess that number?\n')
-        print('---------->')
+        print('\nGuess the number.\n')
+        print('----># ')
         guessnum = int(input())
         if guessnum < secnum:
             print('\nAim higher...')
@@ -21,7 +21,7 @@ def game():
         print('Correct!!!')
         print("Thats with a total of " + str(i) + " tries")
     else:
-        print('Nope the number I was thinking about was' + str(secnum))
+        print('Failed.\nThe number was: ' + str(secnum))
         
   return None
 game()
