@@ -10,8 +10,8 @@ hour = ((datetime.datetime.now().hour) - 12) if datetime.datetime.now().hour > 1
 tmp = (str(hour) + " PM") if datetime.datetime.now().hour >= 12 else " AM"
 
 current_time = str(hour) + ':' + str(datetime.datetime.now().minute) + tmp
-bot = telebot.TeleBot("1367832954:AAFlfP275ECocvCs1arY2cT3SZdCzVY7dGc")
-user = '1388226474'
+bot = telebot.TeleBot("#your api token here")
+user = 'your chat id'
 
 
 def send_messages(message):
