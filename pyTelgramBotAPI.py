@@ -4,8 +4,8 @@ import datetime
 import time
 import Scheduling
 
-bot = telebot.TeleBot("1367832954:AAFlfP275ECocvCs1arY2cT3SZdCzVY7dGc")
-user = '1388226474'
+bot = telebot.TeleBot("#Your Api Key here")
+user = 'Your UserID'
 
 
 def send_messages(message):
@@ -20,11 +20,11 @@ def main():
         current_time = str(hour) + ':' + str(datetime.datetime.now().minute) + tmp
         print(current_time)
         if current_time in Scheduling.dict:
-            print(current_time)
+  
             send_messages(Scheduling.dict[current_time])
             print("Message sent successfully")
             print(current_time)
-            time.sleep(60)
+            time.sleep(30)
         else:
             time.sleep(30)
 
