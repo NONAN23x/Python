@@ -27,12 +27,12 @@ colors = [cyan, green, blue, red, yellow, light_green, light_cyan, light_magenta
 #Banner design
 def banner():
     os.system("clear")
-    time.sleep(0.5)
+    time.sleep(0.3)
     print(random.choice(colors), "\n      ###    ###   ###      ")
-    print("     ~MATRIX CALCULATOR~       (https://github.com/NONAN23x)")
-    print("      ###    ###   ###         (author: NONAN23x) \n\n", finish)
+    print("     ~MATRIX CALCULATOR~     (https://github.com/NONAN23x)")
+    print("      ###    ###   ###       (author: NONAN23x) \n\n", finish)
 
-    time.sleep(0.35)
+    time.sleep(0.25)
     print(random.choice(colors), "Select the type of operation you would like :)\n")
     print("     [1] Inverse of a matrix\n")
     print("     [2] Determinant of a matrix\n")
