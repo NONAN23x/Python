@@ -22,6 +22,6 @@ def game():
         print("Thats with a total of " + str(i) + " tries")
     else:
         print('Failed.\nThe number was: ' + str(secnum))
-        
-  return None
+
+    return None
 game()

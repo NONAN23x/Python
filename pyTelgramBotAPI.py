@@ -20,7 +20,7 @@ def main():
         current_time = str(hour) + ':' + str(datetime.datetime.now().minute) + tmp
         print(current_time)
         if current_time in Scheduling.dict:
-  
+
             send_messages(Scheduling.dict[current_time])
             print("Message sent successfully")
             print(current_time)
